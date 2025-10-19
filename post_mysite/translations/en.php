@@ -1,0 +1,42 @@
+<?php
+return [
+    // General
+    'system_name' => 'File Exchange System',
+    'home' => 'Home',
+    'profile' => 'Profile',
+    'upload_new_file' => 'Upload',
+    'my_files' => 'My Files',
+    'purchases' => 'My Purchases',
+    'transactions' => 'Transactions',
+    'search_placeholder' => 'Search files, tags, users…',
+    'points' => 'points',
+    'points_total' => 'total points',
+    'details' => 'Details',
+    'preview' => 'Preview',
+    'edit' => 'Edit',
+    'download' => 'Download',
+    'purchase' => 'Purchase',
+    'price' => 'Price',
+    'rating' => 'Rating',
+    'total_revenue' => 'Total revenue',
+    'purchase_price' => 'Purchase price',
+    'purchased_for' => 'Purchased for',
+    'uploaded_on' => 'Uploaded',
+    'upload_date' => 'Upload date',
+    'file_size' => 'File size',
+    'file_type' => 'File size',
+    'level' => 'Level',
+    'seller_rating' => 'Seller rating',
+    'total_sales' => 'Total sales',
+    'files_published' => 'Files published',
+    'member_since' => 'Member since',
+    // UI
+    'logout' => 'Logout',
+    'admin_panel' => 'Admin Panel',
+    'system_setup' => 'System Setup',
+    'language' => 'Language',
+    'english' => 'English',
+    'arabic' => 'Arabic',
+];
+?>
+ 

@@ -1,0 +1,17 @@
+:root {
+  --primary-green: #00ff00;
+  --primary-green-glow: #00ff0033;
+  --dark-green: #006400;
+  --background-black: #050505;
+  --card-black: #0c0c0c;
+  --text-gray: #888888;
+  --text-light: #cccccc;
+  --grid-black: #080808;
+  --hover-green: #00800022;
+  --gradient-dark: linear-gradient(145deg, #0a0a0a, #151515);
+  --gradient-glow: linear-gradient(145deg, rgba(0, 255, 0, 0.05), transparent);
+  --border-glow: rgba(0, 255, 0, 0.15);
+  --border-color: rgba(0, 255, 0, 0.2);
+  --shadow-green: 0 4px 20px rgba(0, 255, 0, 0.1);
+  --shadow-green-hover: 0 6px 25px rgba(0, 255, 0, 0.2);
+}

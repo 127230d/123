@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #050505;
+  color: #00ff00;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #0a0a0a;
+  border-bottom: 1px solid rgba(0, 255, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+}
+.comment-form {
+  background: #0c0c0c;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  width: calc(100% - 20px);
+}
+
+.comment-list {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+
+.comment-item {
+  background: #0c0c0c;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid rgba(0, 255, 0, 0.2);
+}
+#contact #form input.name {
+  background:#222222 url(http://img7.uploadhouse.com/fileuploads/17737/177370145f09fe433945815665aa214f80dbc6af.png) no-repeat 10px 8px;
+}
+#contact #form input.email {
+  background:#222222 url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png) no-repeat 10px 9px;
+}
+#contact #form input.captcha {
+  background:#222222 url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat 10px 9px;
+}
+#contact #form textarea.message {
+  background:#222222 url(http://img3.uploadhouse.com/fileuploads/17737/1773701229ed8c2f465a8274623ca8976adaf196.png) no-repeat 10px 8px;
+}
+.form-control {
+  width: 100%;
+  background: #000000;
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  color: #00ff00;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background: #004d00;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #006400;
+}
+
+.header-title {
+  font-size: 1rem;
+  color: #00ff00;
+}
+
+/* --- Seller (Owner) Badges: global styles --- */
+.owner-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.owner-info .owner-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #00ff00;
+}
+
+.owner-info .owner-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.owner-info .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 0.72rem;
+  line-height: 1;
+  border: 1px solid rgba(0, 255, 0, 0.2);
+  background: #0a0a0a;
+  color: #00ff00;
+}
+
+.owner-info .badge i {
+  font-size: 0.8rem;
+  color: #00ff00;
+}
+
+.owner-info .badge-verified i {
+  color: #39d98a;
+  filter: drop-shadow(0 0 4px rgba(0,255,0,0.35));
+}
+
+.owner-info .badge-level {
+  border-color: rgba(0, 255, 0, 0.35);
+}
+
+.owner-info .badge-metric {
+  opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+  .owner-info .owner-badges { gap: 4px; }
+  .owner-info .badge { padding: 3px 6px; font-size: 0.68rem; }
+}
